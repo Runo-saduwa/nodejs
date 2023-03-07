@@ -1,4 +1,4 @@
-# JavaScript V8 Engine
+# How shot V8 Engine
 
 A Javascript V8 Engine is a JIT compiler that converts JS code to executable low-level/machine code.
 
@@ -27,8 +27,6 @@ JIT Compilation combines the best of both of world from Compilation and Interpre
 
 ### What makes V8 deliver high-speed JS executing:
 
-- It uses Ignition which is V8's baseline compiler to Interprete and execute code immediately
+- It uses Ignition which is V8's baseline compiler to interprete source code to un-optimized machine code and executes immediately
 - It uses TurboFan, V8's optimizing compiler to optimize hot functions and compile them into machine code.
-- It compiles and optimizes code at runtime and not AOT
-
-
+- It compiles and optimizes code at runtime
